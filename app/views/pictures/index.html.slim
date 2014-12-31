@@ -1,1 +1,9 @@
-h2 picture index
+h2 画像一覧
+
+= link_to '登録', new_picture_path, class: 'btn btn-success'
+
+ul.row
+  - @pictures.each do |pic|
+    .col-md-4
+      li
+        = image_tag pic.file_url
