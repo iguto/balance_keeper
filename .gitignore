@@ -18,3 +18,6 @@
 # direnv
 .direnv/
 .envrc
+
+*~
+*#*
